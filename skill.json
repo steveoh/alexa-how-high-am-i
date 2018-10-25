@@ -35,6 +35,18 @@
       }
     },
     "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "containsAds": false,
+      "isChildDirected": false,
+      "isExportCompliant": false,
+      "locales": {
+        "en-US": {
+          "privacyPolicyUrl": "https://raw.githubusercontent.com/steveoh/alexa-how-high-am-i/master/assets/privacy"
+        }
+      },
+      "usesPersonalInfo": true
+    },
     "permissions": [
       {
         "name": "alexa::devices:all:address:full:read"
