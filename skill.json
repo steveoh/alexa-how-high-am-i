@@ -1,9 +1,16 @@
 {
   "manifest": {
     "publishingInformation": {
+      "isAvailableWorldwide": false,
+      "distributionCountries": [
+        "US"
+      ],
+      "distributionMode": "PUBLIC",
       "locales": {
         "en-US": {
-          "summary": "Learn fun facts about space.",
+          "largeIconUri": "https://raw.githubusercontent.com/steveoh/alexa-how-high-am-i/master/assets/large.png",
+          "smallIconUri": "https://raw.githubusercontent.com/steveoh/alexa-how-high-am-i/master/assets/small.png",
+          "summary": "Learn what elevation your device is sitting at.",
           "examplePhrases": [
             "Alexa open utah elevation",
             "Alexa ask utah elevation how high I am",
@@ -15,10 +22,10 @@
             "topography"
           ],
           "name": "how-high-am-i-in-utah",
-          "description": "Ask for Space Facts, and learn about what really matters, like dark matter.\n\nSpace Facts provides fun the whole family can enjoy and is guaranteed to make you smarter.\n\nTo start, just say \"Alexa, launch Space Facts\" or \"Alexa, open Space Facts\" to get a fact\".\n\nAt anytime, you can stop by saying \"Alexa, stop\""
+          "description": "Ask for your elevation.\n\nUtah Elevation will find your elevation in utah.\n\nTo start, just say \"Alexa, open Utah Elevation\".\n\nAt anytime, you can stop by saying \"Alexa, stop\""
         }
       },
-      "category": "KNOWLEDGE_AND_TRIVIA"
+      "category": "EDUCATION_AND_REFERENCE"
     },
     "apis": {
       "custom": {
@@ -27,6 +34,11 @@
         }
       }
     },
-    "manifestVersion": "1.0"
+    "manifestVersion": "1.0",
+    "permissions": [
+      {
+        "name": "alexa::devices:all:address:full:read"
+      }
+    ]
   }
 }

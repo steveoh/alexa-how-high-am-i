@@ -20,7 +20,7 @@
           "samples": []
         },
         {
-          "name": "GetNewFactIntent",
+          "name": "GetElevationIntent",
           "samples": [
             "how high am i",
             "tell me my elevation",
