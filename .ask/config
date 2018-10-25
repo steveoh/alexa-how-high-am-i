@@ -1,17 +1,38 @@
 {
   "deploy_settings": {
     "default": {
-      "skill_id": "",
+      "skill_id": "amzn1.ask.skill.3b6d1f38-0ec1-42fd-8704-35207443f4f7",
       "merge": {
         "manifest": {
           "apis": {
             "custom": {
               "endpoint": {
-                "uri": "ask-custom-fact-default"
+                "uri": "ask-custom-how-high-am-i-in-utah-default"
               }
             }
           }
         }
+      },
+      "resources": {
+        "manifest": {
+          "eTag": "67f3f22da03169b1ddc51751d1aab191"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "873227c7fdb726e88591d5fd84ff172b"
+          }
+        },
+        "lambda": [
+          {
+            "arn": "arn:aws:lambda:us-east-1:114755490114:function:ask-custom-how-high-am-i-in-utah-default",
+            "functionName": "arn:aws:lambda:us-east-1:114755490114:function:ask-custom-how-high-am-i-in-utah-default",
+            "awsRegion": "us-east-1",
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "revisionId": "67d1a0cb-b5fc-4165-b2e0-84f9595a4a0e"
+          }
+        ]
       }
     }
   }
