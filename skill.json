@@ -2,6 +2,7 @@
   "manifest": {
     "publishingInformation": {
       "isAvailableWorldwide": false,
+      "testingInstructions": "you must have a valid utah address associated with your account, for instance `326 east south temple st, salt lake city`\nthen say\nalexa open utah elevation",
       "distributionCountries": [
         "US"
       ],
@@ -12,9 +13,9 @@
           "smallIconUri": "https://raw.githubusercontent.com/steveoh/alexa-how-high-am-i/master/assets/small.png",
           "summary": "Learn what elevation your device is sitting at.",
           "examplePhrases": [
-            "Alexa open utah elevation",
-            "Alexa ask utah elevation how high I am",
-            "Alexa tell utah elevation to tell me the elevation"
+            "Alexa, how high am i",
+            "Alexa, tell me my elevation",
+            "Alexa, launch utah elevation"
           ],
           "keywords": [
             "elevation",
@@ -39,7 +40,7 @@
       "allowsPurchases": false,
       "containsAds": false,
       "isChildDirected": false,
-      "isExportCompliant": false,
+      "isExportCompliant": true,
       "locales": {
         "en-US": {
           "privacyPolicyUrl": "https://raw.githubusercontent.com/steveoh/alexa-how-high-am-i/master/assets/privacy"
