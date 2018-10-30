@@ -13,9 +13,9 @@
           "smallIconUri": "https://raw.githubusercontent.com/steveoh/alexa-how-high-am-i/master/assets/small.png",
           "summary": "Learn what elevation your device is sitting at.",
           "examplePhrases": [
-            "Alexa, how high am i",
-            "Alexa, tell me my elevation",
-            "Alexa, launch utah elevation"
+            "Alexa, launch utah elevation",
+            "Alexa, ask utah elevation how high am i",
+            "Alexa, ask utah elevation what is my elevation"
           ],
           "keywords": [
             "elevation",
